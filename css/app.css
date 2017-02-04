@@ -1,0 +1,16 @@
+.top-bar {
+  position: relative;
+  height: 6rem;
+}
+
+.top-bar-section .right{
+  position: absolute;
+  top: 50%;
+  transform: translateY(+50%);
+  right: 0;
+}
+.tabs-content {
+  .content {
+    width:100%;
+  }
+}
