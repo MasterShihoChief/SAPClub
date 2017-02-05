@@ -1,16 +1,21 @@
 .top-bar {
   position: relative;
-  height: 6rem;
+  height: 2.8rem;
 }
 
-.top-bar-section .right{
-  position: absolute;
-  top: 50%;
-  transform: translateY(+50%);
-  right: 0;
-}
 .tabs-content {
   .content {
     width:100%;
   }
+}
+footer{
+position:fixed;
+bottom:0;
+padding: 5px;
+background: #333333;
+}
+
+.footer-right{
+  float: right;
+  position: relative;
 }
