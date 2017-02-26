@@ -1,8 +1,3 @@
-.top-bar {
-  position: relative;
-  height: 2.8rem;
-}
-
 .tabs-content {
   .content {
     width:100%;
@@ -18,4 +13,10 @@ background: #333333;
 .footer-right{
   float: right;
   position: relative;
+}
+
+img.fullwidth{
+    display: block;
+    width: 100%; /* just add width in case you want the image covering full-width */
+    margin: 0 auto;
 }
